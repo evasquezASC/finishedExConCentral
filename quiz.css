@@ -1,0 +1,8 @@
+.qb {
+    border: 1px solid white;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }

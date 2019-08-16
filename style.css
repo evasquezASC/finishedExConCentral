@@ -1,0 +1,487 @@
+
+.container {
+  background-image: url("https://tnuqq21kt870t8n1egkbrmbr-wpengine.netdna-ssl.com/wp-content/uploads/2014/10/Laptops_CH.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container2 {
+  border: solid rgba(63, 60, 60, 0);
+  background-color: rgba(63, 60, 60, 0.4);
+  border-width: 105px;
+}
+
+.mission {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.content {
+  text-align: center;
+  margin-left: 10%;
+  color: white;
+  font-size: 30px;
+  margin-right: 10%;
+}
+
+.content2 {
+  color: white;
+  background-color: #125e8a73;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body {
+  width: 100%;
+}
+
+.placeHolder {
+  color: white;
+  text-align: center;
+}
+
+.p1 {
+  width: 320px;
+}
+
+
+
+.sign {
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid;
+}
+.newGuy {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.oldGuy {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.numbers {
+  color: white;
+  font-size: 70px;
+}
+
+.sinfo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.donateBtn {
+  background-color: rgb(255, 165, 0);
+  width: 80px;
+  height: 45px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.donateBtn:hover {
+  background-color: rgb(221, 145, 5);
+}
+.information {
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.number1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .statistics {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+.stat1 {
+  
+  width: 350px;
+  height: 260px;
+  background: #125e8a73; 
+  -moz-border-radius: 70px; 
+  -webkit-border-radius: 70px; 
+  border-radius: 1000px;
+}
+
+.stat2 {
+  width: 330px;
+  height: 260px;
+  background: #125e8a73; 
+  -moz-border-radius: 70px; 
+  -webkit-border-radius: 70px; 
+  border-radius: 1000px;
+}
+
+.stat3 {
+  width: 350px;
+  height: 300px;
+  background: #125e8a73; 
+  -moz-border-radius: 70px; 
+  -webkit-border-radius: 70px; 
+  border-radius: 1000px;
+}
+/* progress page */
+.progress1 {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.progress2 {
+  display: flex;
+  border: 1px solid black;
+  padding-top: 5px;
+}
+
+#progress3 {
+  display: grid;
+  text-align: center;
+}
+
+#progressrow1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#progressrow2 {
+  display: flex;
+  justify-content: space-between;
+}
+.doctors{
+  padding:  20px;
+  background-color: #b1eae8;
+  width: 50%;
+  height: 50%;
+  border: solid black 1px;
+  margin: 15px;
+}
+
+#TNU {
+  color: darkorange;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+p {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: #FFF1D0;
+}
+
+.mySlides {
+  color: white;
+  background-color: #07A0C3;
+}
+.allMessages {
+  border: 2px solid;
+  /*overflow-y: scroll;*/
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+  display: grid;
+  grid-auto-rows: min-content;
+  grid-gap: 5px;
+ }
+h1,
+p {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#dailyQuotes {
+  display: flex;
+  align-content: center;
+  padding-bottom: 70px;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat; 
+
+}
+
+.help {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+.step1 {
+  color: white;
+}
+
+.stepbystep {
+  border: solid 1px;
+  background-color: #1b7fbd;
+}
+
+.chance {
+  padding: 30px;
+  background-color: #090088;
+}
+
+/*Donate Page */
+.donatePage {
+  justify-content: center;
+  display: flex;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+#donateWords {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#exec {
+  display: flex;
+  width: 100%;
+  padding: 2%;
+  height: 100%;
+}
+
+#center {
+  width: 100%;
+}
+
+#execWords {
+  flex-wrap: wrap;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (max-width: 900px) {
+  .donatePage {
+    display: flex;
+    flex-direction: column;
+  }
+  #execWords {
+    flex-wrap: wrap;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #exec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*reference page*/
+
+#prisonPrograms {
+  margin: 15px;
+  align-content: center;
+}
+
+#programrow1 {
+  height: 100%;
+  display: flex;
+  width: 90%;
+  padding: 2.5%;
+  background-color: mintcream;
+  padding: 0px 38.875px;
+}
+
+#programrow2 {
+  height: 100%;
+  display: flex;
+  width: 90%;
+  padding: 2.5%;
+  background-color: mintcream;
+  padding: 0px 38.875px;
+}
+
+#programrow3 {
+  height: 100%;
+  display:flex;
+  width: 90%;
+  padding: 2.5%;
+  background-color: mintcream;
+  padding: 0px 38.875px;
+}
+
+#PP {
+  align-content: center;
+  color: darkorange;
+}
+
+.programs {
+  height:
+  display: flex;
+  margin: 20px;
+  width: 40%;
+  padding: 5%;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.programLogo {
+  height: 100px;
+  width: 200px;
+  padding-left: 25%; 
+}
+
+#programLogo {
+  height: 40px;
+  width: 300px;
+}
+
+/*profileQuiz*/
+
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+
+.dropdown {
+  background-color: #094074;
+  border: dotted 2px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#logo {
+  position: absolute;
+}
+
+#submitButton {
+  display: flex;
+  justify-content: center;
+  margin-left: 48%;
+  
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="standard.css" />
+    <script src="main.js" defer></script>
+    <title>ExCon_Central</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-auth.js"></script>
+TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC2z-PLmuxT4yulXH2_BXk5RpLr-Pimd2E",
+    authDomain: "users-d511e.firebaseapp.com",
+    databaseURL: "https://users-d511e.firebaseio.com",
+    projectId: "users-d511e",
+    storageBucket: "",
+    messagingSenderId: "236870936905",
+    appId: "1:236870936905:web:27d43f21b42c8be0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script> -->
+  </head>
+  <body>
+    <div class="header">
+      <img class="Logo" src="ExCon_Central.jpg" alt="WebsiteLogo" />
+    </div>
+    <h1>Welcome to Ex-Con Central!</h1>
+    <br />
+    <div class="sign">
+      <div class="oldGuy">
+        <form>
+          <p class="email">
+            <label>Username: </label>
+            <input type="text" id="si_email" />
+          </p>
+          <p>
+            <label>Password: </label>
+            <input type="password" id="si_pass" />
+          </p>
+          <button onclick="onClickSI()" id="signIn">Sign In</button>
+        </form>
+      </div>
+      <div class="newGuy">
+        <form>
+          <p class="email">
+            <label>Username: </label>
+            <input type="text" id="su_email" />
+          </p>
+          <p>
+            <label>Password: </label>
+            <input type="password" id="su_pass" />
+          </p>
+          <p>
+            <label>Confirm Password: </label>
+            <input type="password" id="su_cPass" />
+          </p>
+          <button onclick="onClickSU()" id="signUp">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
